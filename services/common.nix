@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ../services/yubikey.nix
+    yubikey.nix
   ];
 
   programs.neovim = {
