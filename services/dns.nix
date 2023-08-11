@@ -44,6 +44,8 @@ in {
           ''"nas1.home.ncw A 192.168.3.9"''
           ''"rock1.home.ncw A 192.168.3.12"''
           ''"rock2.home.ncw A 192.168.3.13"''
+          ''"compute1.home.ncw A 192.168.3.13"''
+          ''"ha.home.ncw A 192.168.3.22"''
         ];
       };
       forward-zone = [
